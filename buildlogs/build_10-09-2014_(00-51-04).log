@@ -1,0 +1,214 @@
+     [echo] build logged to build_10-09-2014_(00-51-04).log
+init:  duration 0 seconds
+
+setClassPath:
+Property "lib.dir" has not been set
+setClassPath:  duration 0 seconds
+
+loadTestNG:
+Property "test.classpath" has not been set
+dropping C:\Users\shivakrishna.ch\MavenJenkinsProject\${test.classpath} from path as it doesn't exist
+  [taskdef] Could not load definitions from resource testngtasks. It could not be found.
+loadTestNG:  duration 0 seconds
+
+compile:
+Property "test.classpath" has not been set
+     [echo] classpath:${test.classpath}
+     [echo] compiling..........
+Property "test.classpath" has not been set
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\build.xml:34: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] main\java\com\Jenkins\Test\App.java added as main\java\com\Jenkins\Test\App.class doesn't exist.
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Drivers\IEDriverServer.exe skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Drivers\chromedriver.exe skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\TEST-com.Jenkins.Test.App.xml skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\TEST-com.Jenkins.Test.BaseTest.xml skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\TEST-com.Jenkins.Test.NexiiContactTest.xml skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\TEST-testUtils.helper.xml skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\TESTS-TestSuites.xml skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\all-tests.html skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\allclasses-frame.html skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\alltests-errors.html skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\alltests-fails.html skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\alltests-skipped.html skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\com\Jenkins\Test\0_App-errors.html skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\com\Jenkins\Test\0_App.html skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\com\Jenkins\Test\1_BaseTest-errors.html skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\com\Jenkins\Test\1_BaseTest.html skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\com\Jenkins\Test\2_NexiiContactTest-errors.html skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\com\Jenkins\Test\2_NexiiContactTest.html skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\com\Jenkins\Test\package-frame.html skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\com\Jenkins\Test\package-summary.html skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\index.html skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\overview-frame.html skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\overview-summary.html skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\stylesheet.css skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\testUtils\3_helper-errors.html skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\testUtils\3_helper.html skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\testUtils\package-frame.html skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Reports\testUtils\package-summary.html skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\Screenshots\file.jpg skipped - don't know how to handle it
+    [javac] test\java\com\Jenkins\Test\BaseTest.java added as test\java\com\Jenkins\Test\BaseTest.class doesn't exist.
+    [javac] test\java\com\Jenkins\Test\NexiiContactTest.java added as test\java\com\Jenkins\Test\NexiiContactTest.class doesn't exist.
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\config\Config.properties skipped - don't know how to handle it
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\config\OR.properties skipped - don't know how to handle it
+    [javac] test\java\testUtils\helper.java added as test\java\testUtils\helper.class doesn't exist.
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\testdata\NexiiJenkinstestdata.xls skipped - don't know how to handle it
+    [javac] Compiling 4 source files to C:\Users\shivakrishna.ch\MavenJenkinsProject\build
+    [javac] Using modern compiler
+dropping C:\Users\shivakrishna.ch\MavenJenkinsProject\${test.classpath} from path as it doesn't exist
+    [javac] Compilation arguments:
+'-d'
+'C:\Users\shivakrishna.ch\MavenJenkinsProject\build'
+'-classpath'
+'C:\Users\shivakrishna.ch\MavenJenkinsProject\build;D:\ant\apache-ant-1.9.4\lib\ant-launcher.jar;D:\ant\apache-ant-1.9.4\lib;D:\ant\apache-ant-1.9.4\lib\ant-antlr.jar;D:\ant\apache-ant-1.9.4\lib\ant-apache-bcel.jar;D:\ant\apache-ant-1.9.4\lib\ant-apache-bsf.jar;D:\ant\apache-ant-1.9.4\lib\ant-apache-log4j.jar;D:\ant\apache-ant-1.9.4\lib\ant-apache-oro.jar;D:\ant\apache-ant-1.9.4\lib\ant-apache-regexp.jar;D:\ant\apache-ant-1.9.4\lib\ant-apache-resolver.jar;D:\ant\apache-ant-1.9.4\lib\ant-apache-xalan2.jar;D:\ant\apache-ant-1.9.4\lib\ant-commons-logging.jar;D:\ant\apache-ant-1.9.4\lib\ant-commons-net.jar;D:\ant\apache-ant-1.9.4\lib\ant-jai.jar;D:\ant\apache-ant-1.9.4\lib\ant-javamail.jar;D:\ant\apache-ant-1.9.4\lib\ant-jdepend.jar;D:\ant\apache-ant-1.9.4\lib\ant-jmf.jar;D:\ant\apache-ant-1.9.4\lib\ant-jsch.jar;D:\ant\apache-ant-1.9.4\lib\ant-junit.jar;D:\ant\apache-ant-1.9.4\lib\ant-junit4.jar;D:\ant\apache-ant-1.9.4\lib\ant-netrexx.jar;D:\ant\apache-ant-1.9.4\lib\ant-swing.jar;D:\ant\apache-ant-1.9.4\lib\ant-testutil.jar;D:\ant\apache-ant-1.9.4\lib\ant.jar;D:\ant\apache-ant-1.9.4\lib\junit-4.11.jar;C:\Program Files\Java\jdk1.7.0_67\lib\tools.jar'
+'-sourcepath'
+'C:\Users\shivakrishna.ch\MavenJenkinsProject\src'
+'-g:none'
+
+The ' characters around the executable and arguments are
+not part of the command.
+    [javac] Files to be compiled:
+    C:\Users\shivakrishna.ch\MavenJenkinsProject\src\main\java\com\Jenkins\Test\App.java
+    C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\com\Jenkins\Test\BaseTest.java
+    C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\com\Jenkins\Test\NexiiContactTest.java
+    C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\testUtils\helper.java
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\com\Jenkins\Test\BaseTest.java:7: error: package jxl does not exist
+    [javac] import jxl.Sheet;
+    [javac]           ^
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\com\Jenkins\Test\BaseTest.java:8: error: package jxl does not exist
+    [javac] import jxl.Workbook;
+    [javac]           ^
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\com\Jenkins\Test\BaseTest.java:10: error: package org.openqa.selenium does not exist
+    [javac] import org.openqa.selenium.WebDriver;
+    [javac]                           ^
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\com\Jenkins\Test\BaseTest.java:11: error: package org.testng.annotations does not exist
+    [javac] import org.testng.annotations.BeforeSuite;
+    [javac]                              ^
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\com\Jenkins\Test\BaseTest.java:16: error: cannot find symbol
+    [javac] 	public static WebDriver driver;
+    [javac] 	              ^
+    [javac]   symbol:   class WebDriver
+    [javac]   location: class BaseTest
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\com\Jenkins\Test\BaseTest.java:19: error: cannot find symbol
+    [javac] 	public static Workbook wb;
+    [javac] 	              ^
+    [javac]   symbol:   class Workbook
+    [javac]   location: class BaseTest
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\com\Jenkins\Test\BaseTest.java:20: error: cannot find symbol
+    [javac] 	public static Sheet sheetid;
+    [javac] 	              ^
+    [javac]   symbol:   class Sheet
+    [javac]   location: class BaseTest
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\testUtils\helper.java:6: error: package org.apache.commons.io does not exist
+    [javac] import org.apache.commons.io.FileUtils;
+    [javac]                             ^
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\testUtils\helper.java:7: error: package org.openqa.selenium does not exist
+    [javac] import org.openqa.selenium.OutputType;
+    [javac]                           ^
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\testUtils\helper.java:8: error: package org.openqa.selenium does not exist
+    [javac] import org.openqa.selenium.TakesScreenshot;
+    [javac]                           ^
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\testUtils\helper.java:9: error: package org.openqa.selenium.chrome does not exist
+    [javac] import org.openqa.selenium.chrome.ChromeDriver;
+    [javac]                                  ^
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\testUtils\helper.java:10: error: package org.openqa.selenium.firefox does not exist
+    [javac] import org.openqa.selenium.firefox.FirefoxDriver;
+    [javac]                                   ^
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\testUtils\helper.java:11: error: package org.openqa.selenium.ie does not exist
+    [javac] import org.openqa.selenium.ie.InternetExplorerDriver;
+    [javac]                              ^
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\com\Jenkins\Test\NexiiContactTest.java:5: error: package org.openqa.selenium does not exist
+    [javac] import org.openqa.selenium.By;
+    [javac]                           ^
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\com\Jenkins\Test\NexiiContactTest.java:6: error: package org.testng.annotations does not exist
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\com\Jenkins\Test\BaseTest.java:24: error: cannot find symbol
+    [javac]   @BeforeSuite
+    [javac]    ^
+    [javac]   symbol:   class BeforeSuite
+    [javac]   location: class BaseTest
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\com\Jenkins\Test\NexiiContactTest.java:11: error: cannot find symbol
+    [javac]   @Test
+    [javac]    ^
+    [javac]   symbol:   class Test
+    [javac]   location: class NexiiContactTest
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\com\Jenkins\Test\BaseTest.java:32: error: cannot find symbol
+    [javac] 	  wb = Workbook.getWorkbook(fp);
+    [javac] 	       ^
+    [javac]   symbol:   variable Workbook
+    [javac]   location: class BaseTest
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\testUtils\helper.java:20: error: cannot find symbol
+    [javac] 		 driver = new InternetExplorerDriver();
+    [javac] 		              ^
+    [javac]   symbol:   class InternetExplorerDriver
+    [javac]   location: class helper
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\testUtils\helper.java:24: error: cannot find symbol
+    [javac] 		driver = new ChromeDriver();
+    [javac] 		             ^
+    [javac]   symbol:   class ChromeDriver
+    [javac]   location: class helper
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\testUtils\helper.java:27: error: cannot find symbol
+    [javac] 		driver = new FirefoxDriver();
+    [javac] 		             ^
+    [javac]   symbol:   class FirefoxDriver
+    [javac]   location: class helper
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\testUtils\helper.java:33: error: cannot find symbol
+    [javac] 	  File scrfile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+    [javac] 	                                                           ^
+    [javac]   symbol:   variable OutputType
+    [javac]   location: class helper
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\testUtils\helper.java:33: error: cannot find symbol
+    [javac] 	  File scrfile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+    [javac] 	                   ^
+    [javac]   symbol:   class TakesScreenshot
+    [javac]   location: class helper
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\testUtils\helper.java:34: error: cannot find symbol
+    [javac] 	  FileUtils.copyFile(scrfile, new File(System.getProperty("user.dir")+"\\src\\test\\java\\Screenshots\\"+filename+".jpg"));
+    [javac] 	  ^
+    [javac]   symbol:   variable FileUtils
+    [javac]   location: class helper
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\com\Jenkins\Test\NexiiContactTest.java:15: error: cannot find symbol
+    [javac] 	  driver.findElement(By.id(or.getProperty("name_id"))).sendKeys(sheetid.getCell(0, 0).getContents());
+    [javac] 	                     ^
+    [javac]   symbol:   variable By
+    [javac]   location: class NexiiContactTest
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\com\Jenkins\Test\NexiiContactTest.java:16: error: cannot find symbol
+    [javac] 	  driver.findElement(By.id(or.getProperty("email_id"))).sendKeys(sheetid.getCell(0, 1).getContents());
+    [javac] 	                     ^
+    [javac]   symbol:   variable By
+    [javac]   location: class NexiiContactTest
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\com\Jenkins\Test\NexiiContactTest.java:17: error: cannot find symbol
+    [javac] 	  driver.findElement(By.id(or.getProperty("website_id"))).sendKeys(sheetid.getCell(0, 2).getContents());
+    [javac] 	                     ^
+    [javac]   symbol:   variable By
+    [javac]   location: class NexiiContactTest
+    [javac] C:\Users\shivakrishna.ch\MavenJenkinsProject\src\test\java\com\Jenkins\Test\NexiiContactTest.java:18: error: cannot find symbol
+    [javac] 	  driver.findElement(By.id(or.getProperty("message_id"))).sendKeys(sheetid.getCell(0, 3).getContents());
+    [javac] 	                     ^
+    [javac]   symbol:   variable By
+    [javac]   location: class NexiiContactTest
+    [javac] 28 errors
+compile:  duration 1 second
+
+BUILD FAILED
+
+C:\Users\shivakrishna.ch\MavenJenkinsProject\build.xml:34: Compile failed; see the compiler error output for details.
+	at org.apache.tools.ant.taskdefs.Javac.compile(Javac.java:1180)
+	at org.apache.tools.ant.taskdefs.Javac.execute(Javac.java:935)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:292)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at org.apache.tools.ant.Task.perform(Task.java:348)
+	at org.apache.tools.ant.Target.execute(Target.java:435)
+	at org.apache.tools.ant.Target.performTasks(Target.java:456)
+	at org.apache.tools.ant.Project.executeSortedTargets(Project.java:1393)
+	at org.apache.tools.ant.Project.executeTarget(Project.java:1364)
+	at org.apache.tools.ant.helper.DefaultExecutor.executeTargets(DefaultExecutor.java:41)
+	at org.apache.tools.ant.Project.executeTargets(Project.java:1248)
+	at org.apache.tools.ant.Main.runBuild(Main.java:851)
+	at org.apache.tools.ant.Main.startAnt(Main.java:235)
+	at org.apache.tools.ant.launch.Launcher.run(Launcher.java:280)
+	at org.apache.tools.ant.launch.Launcher.main(Launcher.java:109)

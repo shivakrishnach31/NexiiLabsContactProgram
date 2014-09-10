@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.Jenkins.Test.NexiiContactTest">
+        <methods>
+          <include name="f"/>
+          <include name="contactUs"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.Jenkins.Test.NexiiContactTest -->
+      <class name="testUtils.helper">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- testUtils.helper -->
+      <class name="com.Jenkins.Test.BaseTest">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- com.Jenkins.Test.BaseTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

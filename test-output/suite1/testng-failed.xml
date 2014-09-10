@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite1]">
+  <test name="MavenJenkinsProject(failed)">
+    <classes>
+      <class name="com.Jenkins.Test.NexiiContactTest">
+        <methods>
+          <include name="contactUs"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.Jenkins.Test.NexiiContactTest -->
+    </classes>
+  </test> <!-- MavenJenkinsProject(failed) -->
+</suite> <!-- Failed suite [suite1] -->
